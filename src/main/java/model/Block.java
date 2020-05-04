@@ -1,10 +1,12 @@
 package model;
 
 
+import lombok.Getter;
 import util.HashUtil;
 
 import java.util.Date;
 
+@Getter
 public class Block<T> {
 
     private T data;
